@@ -9,7 +9,7 @@
 示例
 ```bash
 curl -X 'POST' \
-  'https://api.hubble-rpc.xyz/agent/api/workflows/hubbleWorkflow/create-run' \
+  'https://api.hubble-rpc.xyz/agent/api/v1/text2sql' \
   -H 'accept: */*' \
   -H 'HUBBLE-API-Key: XXXXXXXXXXXXXX' \
   -H 'Content-Type: application/json'
