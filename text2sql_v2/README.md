@@ -277,4 +277,4 @@ Stream流式返回。
 
 **示例**
 
-- [1. 请求交易量前10的Token](examples/1.get_top10_tokens/streams.txt)
+- [1. 请求交易量前10的Token](examples/1.get_top10_tokens/README.md)
