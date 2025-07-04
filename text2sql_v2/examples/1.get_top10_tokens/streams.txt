@@ -1,0 +1,143 @@
+data: {"type":"workflow_start","message":"Starting Text2SQL agent","query":"Show me the top 10 token trades by volume today","timestamp":"2025-07-04T05:18:29.758Z"}
+
+data: {"type":"llm_start","node":"step-0","step":0,"message":"LLM generation started","runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:29.850Z"}
+
+data: {"type":"token","token":"{\"","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.670Z"}
+
+data: {"type":"token","token":"tasks\":","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.718Z"}
+
+data: {"type":"token","token":" [\"[","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.769Z"}
+
+data: {"type":"token","token":"Query]","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.770Z"}
+
+data: {"type":"token","token":" Get the","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.820Z"}
+
+data: {"type":"token","token":" top ","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.871Z"}
+
+data: {"type":"token","token":"10 token","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.872Z"}
+
+data: {"type":"token","token":" trades by","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.923Z"}
+
+data: {"type":"token","token":" volume today","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:31.974Z"}
+
+data: {"type":"token","token":" from the","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.026Z"}
+
+data: {"type":"token","token":" DEX","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.026Z"}
+
+data: {"type":"token","token":" table,","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.077Z"}
+
+data: {"type":"token","token":" ordered by","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.128Z"}
+
+data: {"type":"token","token":" volume in","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.129Z"}
+
+data: {"type":"token","token":" descending order","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.180Z"}
+
+data: {"type":"token","token":" and","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.231Z"}
+
+data: {"type":"token","token":" limited to","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.232Z"}
+
+data: {"type":"token","token":" 10","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.283Z"}
+
+data: {"type":"token","token":" results.\"","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.335Z"}
+
+data: {"type":"token","token":"], \"","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.335Z"}
+
+data: {"type":"token","token":"parallel\":","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.386Z"}
+
+data: {"type":"token","token":" [[0","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.437Z"}
+
+data: {"type":"token","token":"]]}","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.438Z"}
+
+data: {"type":"token","token":"","index":0,"node":"step-0","step":0,"runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.490Z"}
+
+data: {"type":"llm_end","node":"step-0","step":0,"message":"LLM generation completed","runId":"645fd298-b60a-4075-a512-df1aa392ec3c","timestamp":"2025-07-04T05:18:32.547Z"}
+
+data: {"type":"llm_start","node":"rag","step":2,"message":"LLM generation started","runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:32.839Z"}
+
+data: {"type":"token","token":"SELECT","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.714Z"}
+
+data: {"type":"token","token":" token_m","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.764Z"}
+
+data: {"type":"token","token":"int_address","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.816Z"}
+
+data: {"type":"token","token":", SUM","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.867Z"}
+
+data: {"type":"token","token":"(CO","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.868Z"}
+
+data: {"type":"token","token":"ALESCE","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.918Z"}
+
+data: {"type":"token","token":"(buy","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.970Z"}
+
+data: {"type":"token","token":"_sol","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:33.971Z"}
+
+data: {"type":"token","token":"_amount,","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.021Z"}
+
+data: {"type":"token","token":" 0","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.073Z"}
+
+data: {"type":"token","token":") +","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.073Z"}
+
+data: {"type":"token","token":" COALES","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.124Z"}
+
+data: {"type":"token","token":"CE(s","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.176Z"}
+
+data: {"type":"token","token":"ell_s","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.227Z"}
+
+data: {"type":"token","token":"ol_amount","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.227Z"}
+
+data: {"type":"token","token":", ","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.278Z"}
+
+data: {"type":"token","token":"0))","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.330Z"}
+
+data: {"type":"token","token":" AS total","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.331Z"}
+
+data: {"type":"token","token":"_volume","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.381Z"}
+
+data: {"type":"token","token":" FROM h","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.432Z"}
+
+data: {"type":"token","token":"ubble.d","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.433Z"}
+
+data: {"type":"token","token":"istributed","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.484Z"}
+
+data: {"type":"token","token":"_dex","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.536Z"}
+
+data: {"type":"token","token":"_token_t","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.587Z"}
+
+data: {"type":"token","token":"rade_trans","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.587Z"}
+
+data: {"type":"token","token":"action WHERE","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.638Z"}
+
+data: {"type":"token","token":" toDate","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.689Z"}
+
+data: {"type":"token","token":"(toDateTime","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.690Z"}
+
+data: {"type":"token","token":"(trade","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.741Z"}
+
+data: {"type":"token","token":"_timestamp","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.792Z"}
+
+data: {"type":"token","token":")) =","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.793Z"}
+
+data: {"type":"token","token":" today()","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.844Z"}
+
+data: {"type":"token","token":" GROUP BY","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.895Z"}
+
+data: {"type":"token","token":" token_m","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.947Z"}
+
+data: {"type":"token","token":"int_address","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.947Z"}
+
+data: {"type":"token","token":" ORDER BY","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:34.998Z"}
+
+data: {"type":"token","token":" total_","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:35.050Z"}
+
+data: {"type":"token","token":"volume DESC","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:35.050Z"}
+
+data: {"type":"token","token":" LIMIT","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:35.101Z"}
+
+data: {"type":"token","token":" 10","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:35.153Z"}
+
+data: {"type":"token","token":"","index":0,"node":"rag","step":2,"runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:35.154Z"}
+
+data: {"type":"llm_end","node":"rag","step":2,"message":"LLM generation completed","runId":"d2a68763-49b7-4404-b97a-7f31b89e5007","timestamp":"2025-07-04T05:18:35.208Z"}
+
+data: {"type":"result","data":{"isComplete":true,"finalResponse":"✅ Query Executed Successfully\n\n**Query:** Show me the top 10 token trades by volume today\n**Executed At:** 7/4/2025, 5:18:35 AM\n**Rows Returned:** 10\n\n**Generated SQL:**\n```sql\nSELECT token_mint_address, SUM(COALESCE(buy_sol_amount, 0) + COALESCE(sell_sol_amount, 0)) AS total_volume FROM hubble.distributed_dex_token_trade_transaction WHERE toDate(toDateTime(trade_timestamp)) = today() GROUP BY token_mint_address ORDER BY total_volume DESC LIMIT 10\n```\n\n**Query Results:**\n| token_mint_address | total_volume |\n| --- | --- |\n| 3L96hBnqQq8gdYdkRevHYNxtmeZmgcBRSQp2g5EdnCF7 | 240832.56350999078 |\n| EDMuFEdHYihS6gn8BtLEDZSs4v2xukeQQ8YXYQHUPump | 213778.08038039348 |\n| BW2F8mKmLRuGRZ4Hp5DVsyVL7yujvS5iGoB8Szi7Pump | 201941.751430432 |\n| 4rkCTQbLn26bYYDxHnjJ4LzVSxn5gyvDa4sqzg5Vpump | 177171.26933865214 |\n| 578sbQ3gkrRSxCc9FHVa6myyYYztK8Djp7JxyWoHeGoW | 164138.71412292877 |\n| EEMjxJekErkwGMbQRmUttVrzsR6HaGBn9CTaQk1TPUMP | 160700.45606376187 |\n| 9cxcHc7ad8BDxc9Pn5iNMbdkfHkh8psmpNw2YfGHp4E9 | 157419.52292925052 |\n| D1chmum7xJ4CpoFDdvsmzndG2Pq2JDzaBMWASfxVpump | 153014.6836715561 |\n| DNxC6WpRAeKhSUtvDzx772gPAwb9uv2cEg46ETT7PUMP | 146993.84736804076 |\n| 52cJZgS1xyjXVGmA6iBpJQdqwgvyFziDKqFWf7ducTDL | 144776.71564573617 |\n\n\n✨ This query was completed directly as a simple data retrieval task."},"totalSteps":4,"timestamp":"2025-07-04T05:18:35.486Z"}
+
+data: {"type":"complete","message":"Query processing completed in 4 steps","timestamp":"2025-07-04T05:18:35.486Z"}

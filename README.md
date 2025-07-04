@@ -17,5 +17,6 @@ curl -X 'POST' \
 
 ## 具体业务API接口详情
 
-- [Text to SQL API 说明](text2sql/README.md)
+- [Text to SQL API (V1) 说明](text2sql/README.md)
+- [Text to SQL API (V2) 说明](text2sql_v2/README.md)
 

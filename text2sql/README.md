@@ -1,6 +1,8 @@
-# Text to SQL API 文档
+# Text to SQL API (V1) 文档
 
 Text to SQL API 用于将用户输入的文本转换为 SQL 查询语句，并返回查询结果。
+
+**V1版本不太稳定，会于近期停止更新，建议使用V2版本**
 
 使用时，需要先请求一次获取到唯一的`runId`，然后使用`runId`发起请求。
 
