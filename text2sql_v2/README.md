@@ -270,10 +270,34 @@ error: An error occurred.
 ### 参数
 
 - `query`: 自然语言查询
+- `stream`: 是否流式返回，布尔值，默认为 true。true 时返回流式 SSE 事件，false 时只返回最终的 json 对象。
 
 ### 返回值
 
-Stream流式返回。
+- 当 `stream` 为 `true`（默认）：返回 Server-Sent Events (SSE) 流式数据，每一行以 `data:` 开头，内容为 JSON 对象，包含事件类型、数据、时间戳等。例如：
+
+```text
+// SSE流式返回示例
+
+data: {"type":"workflow_start","message":"Starting Text2SQL agent","query":"...","timestamp":"..."}
+data: {"type":"llm_start",...}
+data: {"type":"token",...}
+data: {"type":"result","data":[{"trader_wallet_address":"7G5z8owm8WGcwLDfYEXEbgd3VsRoJ5XU5JjXCiuC55SR","profit_loss":39.44}, ...],"totalSteps":4,"rowCount":50,"timestamp":"..."}
+data: {"type":"complete","message":"Query processing completed in 4 steps","timestamp":"..."}
+```
+
+- 当 `stream` 为 `false`：直接返回最终结果的 JSON 对象。例如：
+
+```json
+{
+  "data": [
+    {"trader_wallet_address": "7G5z8owm8WGcwLDfYEXEbgd3VsRoJ5XU5JjXCiuC55SR", "total_profit_loss": 39.08932488699998},
+    {"trader_wallet_address": "8hjfBLZ6kA5MiMYPaCT6R5KAe1XtgARPLnCwnpiS9wg9", "total_profit_loss": 34.775627572},
+    ...
+  ],
+  "timestamp": "2025-07-07T09:16:14.088Z"
+}
+```
 
 **示例**
 
